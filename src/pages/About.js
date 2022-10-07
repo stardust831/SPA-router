@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div>
       <p>about</p>
-      {push("/", "go main")}
+      {push("/SPA-router", "go main")}
     </div>
   );
 }

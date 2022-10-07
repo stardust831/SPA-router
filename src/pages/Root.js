@@ -6,7 +6,7 @@ export default function Root() {
   return (
     <div>
       <p>root</p>
-      {push("/about", "about")}
+      {push("/SPA-router/about", "about")}
     </div>
   );
 }

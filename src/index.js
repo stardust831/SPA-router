@@ -9,10 +9,10 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 const container = document.getElementById('root');
 ReactDOM.createRoot(container).render(
   <Router>
-    <Route exact path="/">
+    <Route exact path="/SPA-router">
       <Root />
     </Route>
-    <Route path="/about">
+    <Route path="/SPA-router/about">
       <About />
     </Route>
   </Router>
